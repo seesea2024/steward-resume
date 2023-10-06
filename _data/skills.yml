@@ -1,12 +1,12 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Team leadership
+  description: I have several years of experience leading a team to deliver projects and products
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Java Web Application Development
+  description: Spring MVC, Spring Boot, MyBatis, MySQL, Redis, JavaScript, VueJS, Kafka, Micro Service, etc.
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: SecDevOps, Scrum
+  description: Agile SDLC
