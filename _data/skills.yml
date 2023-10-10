@@ -1,12 +1,51 @@
 # Skills
 # Organizational leadership
 - skill: Team leadership
-  description: I have several years of experience leading a team to deliver projects and products
+  description: 
+        - group: I have several years of experience leading a team to deliver projects and products
 
 # Communications strategy
-- skill: Java Web Application Development
-  description: Spring MVC, Spring Boot, MyBatis, MySQL, Redis, JavaScript, VueJS, Kafka, Micro Service, etc.
-
+- skill: Technique Stack
+  description: 
+      - group: Java
+        set: 
+           - Spring MVC
+           - Spring Boot
+           - MyBatis       
+      - group: Data Store
+        set:
+           - MySQL
+           - Redis
+           - Kafka
+           - HDFS/Hive
+           - Elastic Search
+      - group: Front End
+        set:
+           - HTML/JavaScript/CSS
+           - VueJS        
+           - React
+      - group: Security
+        set:
+           - OAUTH2
+           - Spring Security
+           - IDS
+           - Web Security
+           - RASP/IAST
+      - group: Data Processing
+        set:
+           - Python
+           - Web Crawler/Scrape
+           - Hadoop/Storm/Spark/Flink
+      - group: Others
+        set:
+           - Kafka
+           - ZooKeeper
+           - Micro Services
+           - Docker
+           - K8S
+           - GIT 
+           - CI/CD           
 # Digital content development and creation
-- skill: SecDevOps, Scrum
-  description: Agile SDLC
+- skill: Project Management
+  description: 
+        - group: Deliver project in Agile way, Adopt Scrum Meeting, TDD, CI/CD pipeline, and DevSecOps 
