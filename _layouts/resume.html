@@ -130,12 +130,12 @@
           <div class="resume-item-copy">
             <!-- {{ skill.description }} -->
             {% for desc in skill.description %}
-              {{ desc.group }}
-              <ul>              
+              <p class="resume-item-details">
+              {{ desc.group }}{% if desc.set.size > 0 %} : {% endif %}
                 {% for item in desc.set %}
-                  <li> {{ item }} </li>
+                   {{ item }}{% if forloop.rindex0 != 0 %}｜{% endif %}
                 {% endfor %}
-              </ul>
+              </p>
             {% endfor %}
           </div>
         </div>
