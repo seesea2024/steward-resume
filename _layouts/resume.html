@@ -127,11 +127,11 @@
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <div class="resume-item-copy">
+          <div>
             <!-- {{ skill.description }} -->
             {% for desc in skill.description %}
               <p class="resume-item-details">
-              {{ desc.group }}{% if desc.set.size > 0 %} : {% endif %}
+              <span class="resume-skill-group">{{ desc.group }}</span>{% if desc.set.size > 0 %} : {% endif %}
                 {% for item in desc.set %}
                    {{ item }}{% if forloop.rindex0 != 0 %}｜{% endif %}
                 {% endfor %}
